@@ -24,7 +24,7 @@ end
 class BoardTest < Minitest::Test
   def setup
     $stdout = StringIO.new
-    $stdin = StringIO.new("80")
+    $stdin = StringIO.new("5")
     @board = Board.new
   end
 
@@ -33,7 +33,7 @@ class BoardTest < Minitest::Test
   end
 
   def test_correct_input
-    assert_equal(80, @board.size)
+    assert_equal(5, @board.size)
   end
 
   def test_multiple_input_with_string_one
@@ -61,7 +61,15 @@ class BoardTest < Minitest::Test
   end
 
   def test_display_choose_size
-    assert_equal("Please, choose the size of the board? (max : 80)\n", $stdout.string)
+    assert_match(/\APlease, choose the size of the board\?/, $stdout.string)
+  end
+
+  def test_top_line
+    assert_match(/\+-------------------\+/, $stdout.string)
+  end
+
+  def test_cells
+    assert_match(/|\s/, $stdout.string)
   end
 
   def teardown
