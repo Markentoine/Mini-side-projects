@@ -12,7 +12,7 @@
 
   					`choose_size` ;  `grid`; `top_line`; `cells`
 
- => GameOfLife
+ => ***GameOfLife***
 
  	=> states : @size
  	=> methods : 
