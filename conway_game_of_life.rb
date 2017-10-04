@@ -9,61 +9,8 @@
 # board chosen by the user
 # max display = 80 * 80 cells
 
-class Board
-  attr_reader :size
-
-  def initialize
-    @size = nil
-    @values_to_display = []
-  end
-
-  def display_values(dead_or_alive)
-    begin
-      raise ArgumentError unless valid_values_to_display?(dead_or_alive)
-    rescue
-      puts "Invalid values to display!"
-    end
-    @values_to_display = dead_or_alive
-    @size = Math::sqrt(@values_to_display.size)
-    display_grid
-  end
-
-  private
-
-# design the grid
-
-  def display_grid
-    top_line
-    cells
-  end
-
-  def top_line
-    puts "+" + "-" * (4 * (@size) - 1) + "+"
-  end
-
-  def convert_values_to_cells
-    @values_to_display.map { |boolean| boolean == true ? "| X " : "|   " }
-  end
-
-  def break_in_multiple_lines
-    convert_values_to_cells.each_slice(@size).map(&:to_a)
-  end
-
-  def cells
-    break_in_multiple_lines.each do |line|
-      puts line.join + "|"
-      puts "+" + "-" * (4 * @size - 1) + "+"
-    end
-  end
-
-  def valid_values_to_display?(values)
-    values.class == Array && values.all? { |value| value == true || value == false }
-  end
-end
-
-class Engine
-
-end
+require_relative 'board'
+require_relative 'engine'
 
 class GameOfLife
 
@@ -82,6 +29,7 @@ class GameOfLife
     puts "Now, Let's live and die!"
     display_initial_board
     sleep(1)
+    Engine.new(@initial_values, @size)
   end
 
   def greeting
@@ -114,16 +62,16 @@ class GameOfLife
   end
 
   def set_up_dead_cells
-    puts "Please, choose which cells are dead at the beginning of the game"
+    puts "Please, choose which cells are alive at the beginning of the game"
     puts "Each cell is associated with a number from 1 to #{@size * @size}"
-    @dead_cells = []
+    @live_cells = []
     loop do
       puts "Enter a number :"
       choice = gets.chomp
       if valid_choice?(choice)
-         @dead_cells << choice.to_i - 1 #to be able to associate a choice with an index in the datastructure
+         @live_cells << choice.to_i - 1 #to be able to associate a choice with an index in the datastructure
         puts 'OK'
-        puts "Your choices : #{@dead_cells.map { |choice| choice + 1}.map(&:to_s).join(",")}."
+        puts "Your choices : #{@live_cells.map { |choice| choice + 1}.map(&:to_s).join(",")}."
         sleep(0.5)
       else
         next
@@ -133,7 +81,7 @@ class GameOfLife
       press = gets.chomp
       break if end_of_choice?(press)
     end
-    @dead_cells
+    @live_cells
   end
 
   def valid_choice?(choice)
@@ -141,7 +89,7 @@ class GameOfLife
       if choice.to_i == 0
         puts "Invalid choice"
         return false
-      elsif @dead_cells.include?(choice.to_i - 1)
+      elsif @live_cells.include?(choice.to_i - 1)
         puts "You have already made this choice!"
         return false
       else
@@ -160,9 +108,9 @@ class GameOfLife
   end
 
   def set_initial_values
-    initial_values = Array.new(@size * @size) { true }
-    @dead_cells.each { |index| initial_values[index] = false }
-    initial_values
+    @initial_values = Array.new(@size * @size) { false }
+    @live_cells.each { |index| @initial_values[index] = true }
+    @initial_values
   end
 
   def display_initial_board

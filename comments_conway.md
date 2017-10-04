@@ -14,12 +14,16 @@
 
  => ***GameOfLife***
 
+ 	=> collaborators : Board, Engine
  	=> states : @size
  	=> methods : 
 
  				private : choose_size
 
+=> ***Engine***
 
+	=> initial_state
+	=> collaborator : Board
 draft : 
 
 Using a GUI to choose the initial alive cells
