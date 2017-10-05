@@ -24,7 +24,7 @@ class GameOfLife
   def run
     greeting
     set_up_size
-    set_up_dead_cells
+    set_up_alive_cells
     puts "Here is the initial board..."
     puts "Now, Let's live and die!"
     display_initial_board
@@ -61,7 +61,7 @@ class GameOfLife
     @size = user_input
   end
 
-  def set_up_dead_cells
+  def set_up_alive_cells
     puts "Please, choose which cells are alive at the beginning of the game"
     puts "Each cell is associated with a number from 1 to #{@size * @size}"
     @live_cells = []
@@ -110,7 +110,7 @@ class GameOfLife
   def set_initial_values
     @initial_values = Array.new(@size * @size) { false }
     @live_cells.each { |index| @initial_values[index] = true }
-    @initial_values
+    p @initial_values
   end
 
   def display_initial_board

@@ -3,6 +3,7 @@ require_relative 'board'
 class Engine
   def initialize(initial_values, size)
     @initial_state = initial_values
+    @current_state = @initial_state
     @size = size
     define_frontiers
     run
@@ -11,51 +12,86 @@ class Engine
   private
 
   def run
-    current_state = @initial_state
     loop do
       clear
-      next_state =  birth_and_death(current_state)
-      break if next_state.all? { |value| value == false}
+      next_state =  process_birth_and_death(@current_state)
+      break if next_state.all? { |state| state == false }
       Board.new.display_values(next_state)
+      sleep(0.5)
+      @current_state = next_state
     end
   end
 
-  def birth_and_death(state)
-    association = associate_a_number_to_each_cell(state)
-    association.each_key do |number|
-      if will_die?(number)
-        association[number] = false
-      elsif will_live?(number)
-        association(number) = true
+  def clear
+    system 'clear'
+  end
+
+  def process_birth_and_death(state)
+    @current_association = associate_a_number_to_each_cell(state)
+    next_association = @current_association.clone
+    @current_association.each_key do |num|
+      if will_die?(num)
+        next_association[num] = false
+      elsif will_born?(num)
+        next_association[num] = true
       end
     end
-    association.values
+    next_association.values
   end
 
-  def will_die?(number)
-
+  def will_die?(num)
+    count_alive_neighbors(num) < 2 || count_alive_neighbors(num) > 3
   end
 
-  def will_live?(number)
-
+  def will_born?(num)
+    count_alive_neighbors(num) == 3
   end
 
-  def retrieve_neighbors(number)
-    position = position_of_number(number)
+  def count_alive_neighbors(num)
+    neighbors = all_neighbors(num)
+    selection = @current_association.select { |num, _| neighbors.include?(num) }
+    selection.count { |_, alive| alive == true }
+  end
+
+  def all_neighbors(num)
+    position = position_of_number(num)
     neighbors = []
     if position == :center
-      neighbors = neighbors_for_center(number)
+      neighbors = neighbors_for_center(num)
+    elsif [:upleft, :upright, :lowleft, :lowright].include?(position)
+      neighbors = neighbors_for_corners(num, position)
+    else
+      neighbors = neighbors_for_borders(num, position)
+    end
+    neighbors
+  end
+
+  def neighbors_for_center(num)
+    neighbors = []
+    3.times do |n|
+      neighbors << ((num - @size) - 1) + n
+      neighbors << ((num + @size) - 1) + n
+    end
+    neighbors << (num - 1) << (num + 1)
+    neighbors
+  end
+
+  def neighbors_for_corners(num, corner)
+    case corner
+    when :upleft then [(num + 1), (num + @size), (num + @size + 1)]
+    when :upright then [(num - 1), (num + @size), (num + @size - 1)]
+    when :lowleft then [(num - @size), (num - @size + 1), (num + 1)]
+    when :lowright then [(num - @size - 1), (num - @size), (num - 1)]
     end
   end
 
-  def neighbors_for_center(number)
-    neighbors = []
-    3.times do |n|
-      neighbors << (number - (@size - 1)) + n
-      neighbors << (number + (@size - 1)) + n
+  def neighbors_for_borders(num, border)
+    case border
+    when :top_frontier then [(num - 1), (num + 1), (num + @size - 1), (num + @size), (num + @size + 1)]
+    when :right_frontier then [(num - @size), (num - @size - 1), (num - 1), (num + @size - 1), (num + @size)]
+    when :bottom_frontier then [(num - 1), (num + 1), (num - @size - 1), (num - @size), (num - @size + 1)]
+    when :left_frontier then [(num - 1), (num - @size), (num - @size + 1), (num + @size), (num + @size + 1)]
     end
-    neighbors << number - 1 << number + 1
-    neighbors
   end
 
   def define_frontiers
@@ -67,12 +103,12 @@ class Engine
     @right_frontier =  @columns.last
   end
 
-  def position_of_number(number)
-    if is_at_frontier?(number)
-      if is_in_a_corner?(number)
-        return which_corner?(number)
+  def position_of_number(num)
+    if is_at_frontier?(num)
+      if is_in_a_corner?(num)
+        return which_corner?(num)
       else
-        return which_frontier?(number)
+        return which_frontier?(num)
       end
     else
       :center
@@ -116,7 +152,7 @@ class Engine
   end
 
   def is_in_upper_left_corner?(num)
-    @top_frontier.include?(num) && @lef_frontier.include?(num)
+    @top_frontier.include?(num) && @left_frontier.include?(num)
   end
 
   def is_in_upper_right_corner?(num)
