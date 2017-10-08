@@ -1,0 +1,15 @@
+html{
+	font-family: Helvetica, sans-serif;
+}
+
+h1, h2{
+	color: DarkGreen;
+}
+
+h3{
+	color: SeaGreen;
+}
+
+img{
+	margin: center;
+}

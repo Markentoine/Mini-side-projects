@@ -15,7 +15,7 @@ class Engine
     loop do
       clear
       next_state =  process_birth_and_death(@current_state)
-      break if next_state.all? { |state| state == false }
+      break unless next_state.any? #taking advantage of the bare #any? return : any? truthy?
       Board.new.display_values(next_state)
       sleep(0.5)
       @current_state = next_state

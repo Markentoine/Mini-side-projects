@@ -110,7 +110,7 @@ class GameOfLife
   def set_initial_values
     @initial_values = Array.new(@size * @size) { false }
     @live_cells.each { |index| @initial_values[index] = true }
-    p @initial_values
+    @initial_values
   end
 
   def display_initial_board

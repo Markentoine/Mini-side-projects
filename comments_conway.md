@@ -27,3 +27,9 @@
 draft : 
 
 Using a GUI to choose the initial alive cells
+
+At the beginning, user is asked the size of the board and the live cells wanted at the beginning of the game.
+The initial Board is then displayed.
+
+Then the game runs : until the death of every cells or when the user hit a key to stop the game.
+
