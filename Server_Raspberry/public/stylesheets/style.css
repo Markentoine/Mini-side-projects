@@ -1,0 +1,11 @@
+html{
+	font-family: Helvetica, sans-serif;
+	color: #006629;
+}
+
+h1{
+	font-weight: thin;
+	font-size: 75px;
+	text-align: center;
+	background: black url('../../resources/pictures/raspberries-PJL6XCX.jpg') no-repeat fixed 45% 30%;
+}
