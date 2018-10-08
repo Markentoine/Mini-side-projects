@@ -1,0 +1,848 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"odd",
+				"odd_element"
+			],
+			[
+				"od",
+				"odd_element"
+			],
+			[
+				"in",
+				"intermediate_string"
+			],
+			[
+				"rea",
+				"rearrange_word〔function〕"
+			],
+			[
+				"po",
+				"possible_palindrome?"
+			],
+			[
+				"sam",
+				"same_nb_each_letters〔function〕"
+			],
+			[
+				"even",
+				"even_nb_letters?〔function〕"
+			],
+			[
+				"pro",
+				"prod_price〔variable〕"
+			],
+			[
+				"sell",
+				"sell_price"
+			],
+			[
+				"chec",
+				"check_for_q_or_z〔function〕"
+			],
+			[
+				"nb",
+				"nb_uppercased_letters"
+			],
+			[
+				"upp",
+				"upp_lett"
+			],
+			[
+				"count",
+				"count_upper_lower〔function〕"
+			],
+			[
+				"separate",
+				"separate_letters〔function〕"
+			],
+			[
+				"upperca",
+				"uppercased_letters"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"bir",
+				"birth_date"
+			],
+			[
+				"first",
+				"first_name"
+			],
+			[
+				"relatio",
+				"relationship"
+			],
+			[
+				"sn",
+				"sans-serif"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"th",
+				"three_of"
+			],
+			[
+				"han",
+				"hand_sorted_by_value"
+			],
+			[
+				"full",
+				"full_house"
+			],
+			[
+				"best",
+				"best_hands_to_display"
+			],
+			[
+				"hand",
+				"hand_with_1"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"tuple",
+				"tuples_to_hash"
+			],
+			[
+				"D",
+				"DatabasePersistence"
+			],
+			[
+				"todos",
+				"todos_remaining_count"
+			],
+			[
+				"todo",
+				"todo_id"
+			],
+			[
+				"new",
+				"new_status"
+			],
+			[
+				"two",
+				"two_pair?〔function〕"
+			],
+			[
+				"pair",
+				"pair?〔function〕"
+			],
+			[
+				"thre",
+				"three_of_a_kind?"
+			],
+			[
+				"str",
+				"straight?〔function〕"
+			],
+			[
+				"same_",
+				"same_suite?"
+			],
+			[
+				"max",
+				"max_kicker〔variable〕"
+			],
+			[
+				"all",
+				"all_values"
+			],
+			[
+				"game",
+				"game_values"
+			],
+			[
+				"ga",
+				"game_values"
+			],
+			[
+				"test",
+				"test_for_tie"
+			],
+			[
+				"test_for",
+				"test_for_tie〔function〕"
+			],
+			[
+				"combina",
+				"combinations_to_compare"
+			],
+			[
+				"combination",
+				"combinations_to_compare〔variable〕"
+			],
+			[
+				"reverse_sor",
+				"reversed_sorted_hand"
+			],
+			[
+				"rever",
+				"reversed_sorted_hand〔variable〕"
+			],
+			[
+				"combin",
+				"combinations_to_compare〔variable〕"
+			],
+			[
+				"com",
+				"combination〔variable〕"
+			],
+			[
+				"valu",
+				"values_in_hand〔function〕"
+			],
+			[
+				"be",
+				"best_combination"
+			],
+			[
+				"straigh",
+				"straight"
+			],
+			[
+				"index",
+				"indexes_best_hands〔variable〕"
+			],
+			[
+				"convert",
+				"convert_combination_in_value"
+			],
+			[
+				"res",
+				"result_todos"
+			],
+			[
+				"list",
+				"list_id"
+			],
+			[
+				"lis",
+				"list_name"
+			],
+			[
+				"C",
+				"CHECK"
+			],
+			[
+				"find",
+				"find_list〔function〕"
+			],
+			[
+				"coun",
+				"count_expenses〔function〕"
+			],
+			[
+				"cout",
+				"count_expenses"
+			],
+			[
+				"clea",
+				"clear_expenses"
+			],
+			[
+				"delete",
+				"delete_expense"
+			],
+			[
+				"exec",
+				"exec_params"
+			],
+			[
+				"di",
+				"display_results"
+			],
+			[
+				"expen",
+				"expense_data"
+			],
+			[
+				"E",
+				"ExpenseData"
+			],
+			[
+				"sadd",
+				"saddle_points"
+			],
+			[
+				"Mat",
+				"Matrix〔class〕"
+			],
+			[
+				"M",
+				"MatrixGenerator"
+			],
+			[
+				"min",
+				"min_in_col〔variable〕"
+			],
+			[
+				"row",
+				"row_idx"
+			],
+			[
+				"each_",
+				"each_with_index\tfunc"
+			],
+			[
+				"at",
+				"attr_reader"
+			],
+			[
+				"ind",
+				"index_core_letter"
+			],
+			[
+				"bo",
+				"bottom_part_diamond"
+			],
+			[
+				"co",
+				"core_letter"
+			],
+			[
+				"core",
+				"core_letter_index"
+			],
+			[
+				"each_wi",
+				"each_with_object\tfunc"
+			],
+			[
+				"A",
+				"ArgumentError"
+			],
+			[
+				"ass",
+				"assert_raises"
+			],
+			[
+				"white",
+				"white_position〔variable〕"
+			],
+			[
+				"black",
+				"black_position〔variable〕"
+			],
+			[
+				"positions",
+				"positions_inputs_in_boundaries〔function〕"
+			],
+			[
+				"not",
+				"not_same_positions_for_queens〔function〕"
+			],
+			[
+				"dia",
+				"diagonals〔variable〕"
+			],
+			[
+				"boar",
+				"board_boundaries〔function〕"
+			],
+			[
+				"defin",
+				"define_boundaries〔function〕"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"b",
+				"brightness()"
+			],
+			[
+				"sp",
+				"space-between"
+			],
+			[
+				"fle",
+				"inline-flex"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"bor",
+				"border-left"
+			],
+			[
+				"flex",
+				"inline-flex"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"get",
+				"getJSON〔function〕"
+			],
+			[
+				"loca",
+				"locations_airports"
+			],
+			[
+				"over",
+				"overflow-wrap"
+			],
+			[
+				"inlin",
+				"inline-flex"
+			],
+			[
+				"ci",
+				"cities_with_airport"
+			],
+			[
+				"filter",
+				"filter_jpg_urls"
+			],
+			[
+				"image",
+				"images_urls"
+			],
+			[
+				"wiki",
+				"wikipedia_page"
+			],
+			[
+				"airport",
+				"airport_infos"
+			],
+			[
+				"aiport",
+				"airport_infos"
+			],
+			[
+				"airpo",
+				"airport_infos"
+			],
+			[
+				"us",
+				"user_win"
+			],
+			[
+				"gue",
+				"guessandbet"
+			],
+			[
+				"input",
+				"input_valid"
+			],
+			[
+				"gues",
+				"guessnumber"
+			],
+			[
+				"rand",
+				"random_draw"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"to",
+				"to_town"
+			],
+			[
+				"fro",
+				"from_town"
+			],
+			[
+				"from",
+				"from_country"
+			],
+			[
+				"Fl",
+				"FlightTrackApp"
+			],
+			[
+				"user",
+				"user_page"
+			],
+			[
+				"asser",
+				"assert_includes"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"rb",
+				"rgba()"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"ru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 652.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"ruby queen_attack.rb",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"clear",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/maison_sushi/style/reset.css",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/201_202/nutrition_facts.html",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/201_202/web_store_catalog/style_web_store.css",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/medium2/test_linked_list.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/medium2/simple_linked_list.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/.rubocop.yml",
+		"/Users/jerometoulouse/Documents/Transition/Envato_Tuts/Sinatra/App.rb",
+		"/Users/jerometoulouse/School/101/lesson_6/.rubocop.yml",
+		"/Users/jerometoulouse/School/Challenges-for-130/.rubocop.yml",
+		"/Users/jerometoulouse/Documents/Transition/codewars/factory.rb",
+		"/Users/jerometoulouse/Documents/Transition/codewars/palindrome_factory.rb",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/public/resources/css/style.css",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/views/airports.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/resolve_crime.md",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/exercise_assessment_correction.md",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/aFlightTrackApp.rb",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/search.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/medium2/bst.rb",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/public/data/locations_airports.json",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/config.ru",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/Gemfile",
+		"/Users/jerometoulouse/Documents/Transition/upcase/exercises/analyzing-shakespeare/macbeth_analyzer.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/advanced1/xor_cipher.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/medium2/run_length_encoding.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/medium2/class RunLengthEncoding.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/advanced1/poker_test.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/201_202/styles_conferences/assets/stylesheets/main.css",
+		"/Users/jerometoulouse/Documents/Transition/Blog/markentoine.github.io/_config.yml",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/medium2/test_run_length_encoding.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/exercise_sql_for_assessment.md",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/130/assessment/test_atbash.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/130/assessment/atbash.rb",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/experimentations/pass_value_reference.rb",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/schema.sql",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/201_202/styles_conferences/index.html",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/201_202/pear_bacon_cheese.html",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/201_202/first_web_pages/first_web_page.html",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/201_202/first_web_pages/profile.html",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/advanced1/poker.rb",
+		"/Users/jerometoulouse/Documents/Transition/Blog/Gemfile",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/advanced1/poker_Oscar_review.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/advanced1/saddle_point.rb",
+		"/Users/jerometoulouse/Documents/Transition/Blog/markentoine.github.io/index.html",
+		"/Users/jerometoulouse/Documents/Transition/Blog/markentoine.github.io/css/main.css",
+		"/Users/jerometoulouse/Documents/Transition/Blog/markentoine.github.io/.gitignore",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/bidders.csv",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/todo/views/lists.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/todo/views/list.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/todo/todo.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/todo_db/DatabasePersistence.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/todo_db/views/lists.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/todo_db/views/list.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/todo_db/todo.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/todo/schema.sql",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/bids.csv",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/items.csv",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/todo/DatabasePersistence.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/todo/session_persistence.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/todo/Gemfile",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/todo/config.ru",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/todo/Procfile",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/todo_db/views/lists",
+		"/Users/jerometoulouse/.bashrc",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/expense_project/expense",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/expense_project/schema.sql",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/advanced1/test_saddle_point.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/advanced1/benchmark_with_object_vs_reduce.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/expense_project/Gemfile",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/expense_project/expense.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/medium2/test_diamond.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/medium2/diamond.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/advanced1/queen_attack.rb",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/views/layout.erb",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/views/landing.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/Challenges-for-130/advanced1/test_queen_attack.rb",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/public/markerclusterer.js",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/views/detailairport.erb",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/public/data/airports_parsed.csv",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/public/data/airports_raw.csv",
+		"/Users/jerometoulouse/Documents/Transition/Envato_Tuts/Sinatra/views/images.erb",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/views/routes.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/todos_project_reborn/views/layout.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/todos_project_reborn/views/detailed_list.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/todos_project_reborn/todos_reborn.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/todos_project_reborn/Gemfile",
+		"/Users/jerometoulouse/Documents/Transition/Envato_Tuts/Sinatra/views/layout.erb",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/views/sign.erb",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/users.rb",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/validations.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/challenge_179/views/landing.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/challenge_179/views/layout.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/challenge_179/views/play.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/challenge_179/views/broke.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/challenge_179/Gemfile",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/challenge_179/config.ru",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/challenge_179/guess_number.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/180/ls_burger.sql",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/project_File_Based_CMS/Gemfile",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/project_File_Based_CMS/config.ru",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/views/routes",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/user.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/project_File_Based_CMS/public/test/cms_test.rb",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/test/FlightTrackApp_test.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/project_File_Based_CMS/CMS.rb",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/public/data/users/authorized_users.yml",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/aFlightTrackApp/public/resources/css/reset.css",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/project_File_Based_CMS/public/data/users/authorized_users.yml",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/project_File_Based_CMS/test/cms_test.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/project_File_Based_CMS/views/history.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/project_File_Based_CMS/views/upload_images.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/project_File_Based_CMS/views/list_files.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/project_File_Based_CMS/data/users/users.rb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/project_File_Based_CMS/public/javascripts/cms.js",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/project_File_Based_CMS/views/edit_file.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/project_File_Based_CMS/views/sign_in.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/project_File_Based_CMS/views/landing.erb",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/project_File_Based_CMS/public/resources/stylesheets/style.css",
+		"/Users/jerometoulouse/Documents/Transition/Launch School/project_File_Based_CMS/views/layout.erb",
+		"/Users/jerometoulouse/Documents/Transition/tea_cozy/index.html",
+		"/Users/jerometoulouse/Documents/Transition/tea_cozy/resources/css/style.css",
+		"/Users/jerometoulouse/Documents/Transition/colmar_capstone/resources/css/style.css",
+		"/Users/jerometoulouse/Documents/Transition/colmar_capstone/index.html",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/LessMore/README.md",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/LessMore/data/users/list_users.yml",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/LessMore/Gemfile",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/LessMore/config.ru",
+		"/Users/jerometoulouse/Documents/Transition/Mini-side-projects/LessMore/LessMore.rb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 39.0
+	},
+	"output.exec":
+	{
+		"height": 165.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 29.0
+	},
+	"pinned_build_system": "Packages/Ruby/Ruby.sublime-build",
+	"project": "maison_sushi_landing_dsktop.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"fl",
+				"~/Documents/Transition/Mini-side-projects/aFlightTrackApp/views/airports.erb"
+			],
+			[
+				"",
+				"~/Documents/Transition/Mini-side-projects/aFlightTrackApp/public/resources/css/style.css"
+			],
+			[
+				"edit",
+				"~/Documents/Transition/Launch School/project_todos/views/edit_list.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
