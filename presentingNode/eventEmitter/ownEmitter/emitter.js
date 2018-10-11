@@ -1,6 +1,6 @@
 // building an emitter from scratch
 
-function Emitter() {
+function Emitter() { // constructor function
     this.events = {};
 }
 
